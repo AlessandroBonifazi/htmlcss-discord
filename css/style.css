@@ -4,9 +4,26 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 700px;
+body {
+    font-family: sans-serif;
+}
+
+header {   
     width: 100vw;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
 }
 
 /* top header */
@@ -70,7 +87,7 @@ header {
 
 /* inizio jumbotron */
 .jumbotron {
-    height: 600px;
+    height: 500px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     text-align: center;
@@ -101,3 +118,36 @@ header {
     font-size: 20px;
 }
 /* fine jumbotron */
+
+.container {
+    height: 800px;
+    width: 100vw;
+    margin: auto;
+    display: inline-block;
+    padding-top: 150px;
+}
+
+/* inizio container */
+article {
+    width: 300px;
+    margin-top: 30px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+article p {
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.focus {
+    height: 100%;
+    width: 55%;
+    margin: auto;
+    border: 2px soldi black;
+}
+/* fine container */
+
