@@ -3,3 +3,65 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header {
+    height: 700px;
+    width: 100vw;
+}
+
+.top-header {
+    height: 80px;
+    line-height: 80px;
+    width: 100vw;
+    background-color: rgb(49, 97, 224);
+    display: inline-block;
+}
+
+.top-header nav{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.top-header li{
+    display: inline-block;
+}
+
+.logo {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.top-header li a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 50px;
+    display: inline-block;
+    height: 40px;
+     width: 85px;
+     margin: 20px 0px;
+     text-align: center;
+     line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.top-header li a:hover {
+    text-decoration: underline;
+}
