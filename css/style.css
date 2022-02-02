@@ -56,10 +56,11 @@ header {
     vertical-align: middle;
 }
 
-.top-header li a {
+li a {
     color: white;
-    margin: 0 15px;
+    margin: 0px 15px;
     text-decoration: none;
+    line-height: 25px;
 }
 
 .btn {
@@ -80,7 +81,7 @@ header {
     text-decoration: underline;
 }
 
-.top-header li a:hover {
+li a:hover {
     text-decoration: underline;
 }
 /* fine top header */
@@ -147,15 +148,16 @@ p {
     height: 100%;
     width: 55%;
     margin: auto;
-    border: 2px soldi black;
 }
-/* fine container */
+
+.inline-b {
+    display: inline-block;
+}
 
 .last-container {
- 
+    padding-top: 50px;
     width: 100vw;
     text-align: center;
-
 }
 
 #big {
@@ -176,3 +178,51 @@ p {
     color: white;
     background-color: rgb(49, 97, 224);
 }
+
+.grey {
+    background-color: #f6f6f6;
+}
+/* fine container */
+
+footer {
+    height: 600px;
+    width: 100vw;
+    background-color: #23272a;
+}
+
+.social {
+    width: 150px;
+    margin-right: 80px;
+    color: white;
+    display: inline-block;
+}
+
+.flag {
+    height: 15px;
+    width: 20px;
+    background-image: url("../img/ita.png");
+    background-size: contain;
+    display: inline-block;
+}
+
+.col {
+    width: 150px;
+    display: inline-block;
+    margin-top: 150px;
+    color: white;
+}
+
+.col ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.focus ul:first-child {
+    color: rgb(49, 97, 224);
+}
+
+#social-title {
+    color: rgb(49, 97, 224);
+    margin-bottom: 70px;
+}
+  
