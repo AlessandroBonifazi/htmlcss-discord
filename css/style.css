@@ -192,7 +192,7 @@ footer {
     width: 150px;
     margin-right: 120px;
     color: white;
-    display: inline-block;
+
 }
 
 .flag {
@@ -205,7 +205,6 @@ footer {
 
 .col {
     width: 150px;
-    display: inline-block;
     color: white;
 }
 
@@ -229,7 +228,7 @@ footer {
     width: 100%;
 }
 
-.logo, .float-left {
+.logo.float-left {
     margin-top: 20px;
 }
 /* fine footer */
