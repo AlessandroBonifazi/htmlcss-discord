@@ -247,3 +247,14 @@ footer {
 }
 /* fine footer */
   
+/* wave */
+.wave svg{
+    color: #f6f6f6;
+    display: block;
+}
+
+#reverse {
+    color: white;
+    background-color: #f6f6f6;
+    display: block;
+}
