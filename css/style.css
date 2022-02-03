@@ -48,19 +48,11 @@ header {
 .logo {
     width: 20%;
     display: inline-block;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .logo img {
     vertical-align: middle;
-}
-
-li a {
-    color: white;
-    margin: 0px 15px;
-    text-decoration: none;
-    line-height: 25px;
 }
 
 .btn {
@@ -83,6 +75,13 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+}
+
+li a {
+    color: white;
+    margin: 0px 15px;
+    text-decoration: none;
+    line-height: 25px;
 }
 /* fine top header */
 
@@ -120,7 +119,8 @@ li a:hover {
 }
 /* fine jumbotron */
 
-.container {
+/* inizio section */
+section {
     height: 800px;
     width: 100vw;
     margin: auto;
@@ -128,7 +128,19 @@ li a:hover {
     padding-top: 150px;
 }
 
-/* inizio container */
+.container {
+    height: 100%;
+    width: 55%;
+    margin: auto;
+}
+
+.last-section {
+    height: 1000px;
+    padding-top: 50px;
+    width: 100vw;
+    text-align: center;
+}
+
 article {
     width: 300px;
     margin-top: 30px;
@@ -142,22 +154,6 @@ h2 {
 p {
     line-height: 20px;
     font-weight: 600;
-}
-
-.focus {
-    height: 100%;
-    width: 55%;
-    margin: auto;
-}
-
-.inline-b {
-    display: inline-block;
-}
-
-.last-container {
-    padding-top: 50px;
-    width: 100vw;
-    text-align: center;
 }
 
 #big {
@@ -184,6 +180,7 @@ p {
 }
 /* fine container */
 
+/* inizio footer */
 footer {
     height: 600px;
     width: 100vw;
@@ -208,7 +205,7 @@ footer {
 .col {
     width: 150px;
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 60px;
     color: white;
 }
 
@@ -217,7 +214,7 @@ footer {
     list-style: none;
 }
 
-.focus ul:first-child {
+.container ul:first-child {
     color: rgb(49, 97, 224);
 }
 
@@ -225,4 +222,5 @@ footer {
     color: rgb(49, 97, 224);
     margin-bottom: 70px;
 }
+/* fine footer */
   
