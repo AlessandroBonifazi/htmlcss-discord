@@ -203,6 +203,20 @@ footer {
     display: inline-block;
 }
 
+.icons {
+    margin-top: 15px;
+}
+
+.fab {
+    margin: 0 5px;
+    font-size: 20px;                                                                                                                                                                        
+}
+
+.fab:hover {
+    cursor: pointer;
+    color: rgb(49, 97, 224);
+}
+
 .col {
     width: 150px;
     color: white;
